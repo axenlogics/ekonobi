@@ -1,0 +1,27 @@
+.order_detail{
+    display: flex;
+}
+
+.order_detail h6{
+    min-width: 245px;
+    color: var(--color-white);
+    margin-bottom: 0;
+    font-weight: 500;
+    padding: 25px 0 0 4px;
+}
+
+.order_detail .tbl{
+    flex: 1;
+}
+
+.btn_toggle{
+    background: none;
+    border: 0;
+    display: inline-flex;
+    align-items: center;
+    color: var(--color-8d90b0);
+    cursor: pointer;
+}
+.btn_toggle svg{
+    margin-left: 5px;
+}

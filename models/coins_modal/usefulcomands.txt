@@ -1,0 +1,2 @@
+1 = do overall search 
+2 = Type in console.log.*$

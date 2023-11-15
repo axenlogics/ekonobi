@@ -1,0 +1,164 @@
+.buysell_wrap{
+    padding: 12px;
+    border-radius: 30px;
+    background-color: var(--color-232842);
+    border: solid 1px var(--color-1e2136);
+}
+
+.buysell_wrap{
+    margin-top: 40px;
+    background-color: var(--color-16182f);
+}
+
+.bstabs{
+    padding: 11px;
+    margin:40px 0 50px;
+    border-radius: 30px;
+    background-color: var(--color-16182f);
+    border: solid 1px var(--color-1e2136);
+}
+
+.bstab_list{
+    display: flex;
+    border-radius: 20px;
+    background-color: var(--color-232842);
+    list-style: none;
+    margin-bottom: 10px;
+}
+.bstab{
+    font-size: 16px;
+    padding: 18px 15px;
+    font-weight: 700;
+    line-height: 1.5;
+    flex: 1;
+    text-align: center;
+    color: #8c8fae;
+    cursor: pointer;
+}
+.bstab_selected_buy,
+.bstab_selected_sell{
+    border-radius: 20px;
+    color: var(--color-white);
+}
+
+.bstab_selected_buy{
+    background-color: var(--color-success);
+}
+.bstab_selected_sell{
+    background-color: var(--color-danger);
+}
+
+div.input_group{
+    border-radius: 20px;
+}
+.form_control{
+    height: 60px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+div.input_prepend{
+    padding-left: 15px;
+}
+
+.spin button:first-child{
+    border-top-right-radius: 20px;
+}
+.spin button:last-child{
+    border-bottom-right-radius: 20px;
+}
+
+.range_slider{
+    margin:8px 0 30px;
+}
+.range_steps{
+    display: flex;
+    justify-content: space-between;
+}
+.range_step:first-child{
+    padding-left: 5px;
+}
+.range_step{
+    position: relative;
+    background: none;
+    border: 0;
+    text-align: left;
+    color: #8c8fae;
+    font-size: 10px;
+    cursor: pointer;
+    padding: 4px 8px;
+}
+.range_step:not(:first-child)::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 100%;
+    margin: 0 auto 4px;
+    width: 1px;
+    height: 8px;
+    background-color: var(--color-232842);
+}
+.range_step:last-child{
+    padding-right: 0;
+}
+.range_step:last-child::after{
+    left: auto;
+    margin-left: 0;
+}
+.input_range {
+    height: 4px;
+    outline: none;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+.input_range.buy{
+    background: linear-gradient(to right, #0ec980 0%, #0ec980 0%, var(--color-232842) 0%, var(--color-232842) 100%);
+}
+.input_range.sell{
+    background: linear-gradient(to right, #E94158 0%, #E94158 0%, var(--color-232842) 0%, var(--color-232842) 100%);
+}
+
+.input_range.buy::-webkit-slider-thumb {
+    -webkit-appearance: none;
+   background-color: var(--color-232842);
+   opacity: 1;
+   width: 12px;
+   height: 12px;
+   border-radius: 50%;
+   border: 1px solid #00d672;
+   cursor: pointer;
+}
+.input_range.sell::-webkit-slider-thumb {
+    -webkit-appearance: none;
+   background-color: var(--color-232842);
+   opacity: 1;
+   width: 12px;
+   height: 12px;
+   border-radius: 50%;
+   border: 1px solid #E94158;
+   cursor: pointer;
+}
+
+.balance_stats{
+    margin-bottom: 12px;
+}
+.balance_stat{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.balance_txt{
+    font-size: 12px;
+    color: #8c8fae;
+}
+
+.btn_buysell{
+    width: 100%;
+    border-radius: 30px;
+    padding: 17px;
+}
+

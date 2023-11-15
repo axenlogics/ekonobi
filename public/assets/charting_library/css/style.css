@@ -1,0 +1,45 @@
+html.theme-dark .group-3uonVBsm,
+html.theme-dark .drawingToolbar-2_so5thS,
+html.theme-dark .group-2_so5thS {
+    background-color: #16182f;
+}
+html.theme-dark .chart-page {
+    background-color: #1e2136;
+}
+
+@media screen and (max-width: 1600px) {
+    .wrap-379NmUSU svg {
+        width: 19px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .layout__area--left,
+    .button-5-QHyx-s{
+        width: 30px !important;
+    }
+
+    .layout__area--top,
+    .layout__area--center{
+        width: calc(100% - 30px) !important;
+        left: 31px !important;
+    }
+
+    .chart-page .chart-container,
+    .chart-widget,
+    table.chart-markup-table,
+    .chart-gui-wrapper,
+    .chart-gui-wrapper canvas,
+    .chart-markup-table canvas{
+        width: 100% !important;
+    }
+
+    .wrap-379NmUSU svg{
+        width: 20px;
+    }
+
+    .value-2y-wa9jT,
+    .item-3SbREAgE,
+    .toolbar-2yU8ifXU{
+        font-size: 12px;
+    }
+}

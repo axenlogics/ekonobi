@@ -1,0 +1,6 @@
+.fillbar{
+    width: 50px;
+    height: 4px;
+    display: inline-block;
+    margin-left: 9px;
+}

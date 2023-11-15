@@ -1,0 +1,163 @@
+.bsmtab_list{
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 8px;
+}
+.bsmtab{
+    font-size:14px;
+    color: #8c8fae;
+    padding: 4px 14px;
+    background:none;
+    cursor: pointer;
+    border: solid 1px transparent;
+    border-bottom: 4px solid transparent;
+}
+.bsmtab_selected{
+    position: relative;
+    color: var(--color-white);
+    border-color: var(--color-1e2136);
+    border-bottom-color: var(--color-primary);
+    background-color: #16182f;
+}
+
+.myorder_actions{
+    display: flex;
+    position: absolute;
+    right: 0;
+    align-items: center;
+    font-size: 14px;
+    color: var(--color-mute);
+}
+.cancelall_btn,
+.toggle_btn{
+    border: solid 1px var(--color-1e2136);
+    background-color: #16182f;
+    padding: 5.5px;
+    margin-left: 10px;
+    color: var(--color-mute);
+    font-family: var(--font-ibm);
+    font-size: 14px;
+    font-weight: 500;
+}
+.cancelall_btn{
+    min-width: 163px;
+}
+.cancelall_btn:hover{
+    color: var(--color-white);
+}
+
+.toggle_btn{
+    padding: 3.5px 5.5px;    
+}
+
+
+.subpanel{
+    padding: 8px 10px 10px 13px;
+    border-radius: 3px;
+    border: solid 1px var(--color-1e2136);
+    background-color:#16182f;
+    color: #fff;
+}
+
+.tbl{
+    color: #fff;
+    font-size: 12px;
+    font-family: var(--font-ibm);
+}
+.tblrow{
+    display: flex;
+    position: relative;
+    z-index: 1;
+    align-items: center;
+    user-select: none;
+}
+
+.tbl .tblth,
+.tbl .tbltd{
+    padding: 8px 4px;
+    flex: 1;
+    line-height: 1.5;
+    text-align: right;
+}
+.tbl .tblth{
+    padding: 8px 4px;
+}
+
+.tbl .tblthead{
+    border-bottom: 1px solid #232842;
+}
+.tbl .tblth{
+    color: #8d90b0;
+    font-weight: 500;
+}
+
+.tbl .tbltbody{
+    padding-top: 2px;
+}
+
+.tbl .txtmute,
+.tbl .date_cell{
+    color: #8d90b0;
+}
+
+.tbl .side_cell,
+.tbl .pair_cell,
+.tbl .type_cell{
+    text-align: left;
+}
+
+.tbl .side_cell{
+    max-width: 35px;
+}
+
+.tbl .pair_cell{
+    max-width: 100px;
+}
+.tbltd.pair_cell{
+    font-size: 15px;
+    font-weight: 700;
+    font-family: var(--font-ibm);
+}
+.tbl .type_cell{
+    max-width: 50px;
+}
+.tbl .price_cell{
+    padding-right: 15px;
+    /* max-width: 115px; */
+}
+
+.tbl .filled_cell{
+    text-align: left;
+    padding-left: 30px;
+    font-weight: 500;
+}
+.tbl .action_cell{
+    max-width: 55px;
+}
+
+.tbl .status_cell{
+    max-width: 105px;
+}
+
+.btn_cancel{
+    background: none;
+    border: 0;
+    position: relative;
+    width: 12px;
+    height: 12px;
+}
+
+.hidebtn{
+    margin-right: 9px;
+}
+.hidebtn label{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.hidebtn span{
+    margin-right: 8px;
+    user-select: none;
+}
+
+
